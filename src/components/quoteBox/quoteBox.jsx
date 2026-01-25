@@ -33,6 +33,10 @@ export default function QuoteBox(){
             }, 10);
         }
     },[quote]);
+
+    useEffect(()=>{
+        dispatch(fetchQuote());
+    }, [dispatch]);
     
     return(
         <div className='container'>
