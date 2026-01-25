@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/random-quote-machine/static/css/main.f11fb36a.css",
-    "main.js": "/random-quote-machine/static/js/main.a5e79a86.js",
+    "main.css": "/random-quote-machine/static/css/main.919f7bf4.css",
+    "main.js": "/random-quote-machine/static/js/main.77a04f64.js",
     "static/js/453.f9c040e8.chunk.js": "/random-quote-machine/static/js/453.f9c040e8.chunk.js",
     "static/media/twitter.png": "/random-quote-machine/static/media/twitter.eb65475e4e8a8c97d960.png",
     "index.html": "/random-quote-machine/index.html",
-    "main.f11fb36a.css.map": "/random-quote-machine/static/css/main.f11fb36a.css.map",
-    "main.a5e79a86.js.map": "/random-quote-machine/static/js/main.a5e79a86.js.map",
+    "main.919f7bf4.css.map": "/random-quote-machine/static/css/main.919f7bf4.css.map",
+    "main.77a04f64.js.map": "/random-quote-machine/static/js/main.77a04f64.js.map",
     "453.f9c040e8.chunk.js.map": "/random-quote-machine/static/js/453.f9c040e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f11fb36a.css",
-    "static/js/main.a5e79a86.js"
+    "static/css/main.919f7bf4.css",
+    "static/js/main.77a04f64.js"
   ]
 }
