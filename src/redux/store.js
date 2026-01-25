@@ -3,6 +3,6 @@ import  generateQuoteReducer from './generateQuoteSlice';
 
 export default configureStore({
     reducer: {
-        generateQuote: generateQuoteReducer,  
+        generateQuote: generateQuoteReducer,
     },
 })

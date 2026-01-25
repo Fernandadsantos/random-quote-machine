@@ -1,10 +1,10 @@
-import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'; 
-  
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+
 console.log(process.env.REACT_APP_KEY)
-const url = 'https://api.api-ninjas.com/v1/quotes?category=computers';
+const url = 'https://api.api-ninjas.com/v2/randomquotes';
 const options = {
     method: 'GET',
-    headers: { 
+    headers: {
         'X-Api-Key': process.env.REACT_APP_KEY
     },
 };
@@ -13,7 +13,7 @@ export const fetchQuote = createAsyncThunk(
     'generateQuote/fetchQuote',
     async () => {
         const response = await fetch(url, options);
-        const data = await response.json();   
+        const data = await response.json();
         return data[0];
     }
 );
